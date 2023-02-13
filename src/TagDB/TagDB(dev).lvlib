@@ -127,10 +127,10 @@ TagContainer-Write.vim: 写入 Tag</Property>
 		<Item Name="TagDB-Release.vi" Type="VI" URL="../API/TagDB-Release.vi"/>
 	</Item>
 	<Item Name="Typedef" Type="Folder">
-		<Item Name="TagContainer.ctl" Type="VI" URL="../Typedef/TagContainer.ctl"/>
-		<Item Name="tagcontainer-data.ctl" Type="VI" URL="../Typedef/tagcontainer-data.ctl"/>
+		<Item Name="TagDB.ctl" Type="VI" URL="../Typedef/TagDB.ctl"/>
+		<Item Name="tagdb-data.ctl" Type="VI" URL="../Typedef/tagdb-data.ctl"/>
 	</Item>
 	<Item Name="_TEST" Type="Folder">
-		<Item Name="TagContainer-TestMain.vi" Type="VI" URL="../__TEST/TagContainer-TestMain.vi"/>
+		<Item Name="TagDB-TestMain.vi" Type="VI" URL="../__TEST/TagDB-TestMain.vi"/>
 	</Item>
 </Library>
