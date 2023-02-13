@@ -1,10 +1,10 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-10-20 15:34:05" Modified_Date="2023-02-13 18:28:58" Creator="Administrator" Comments="" ID="4b82bfdccf948767a217326e8a3c284d">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-10-20 15:34:05" Modified_Date="2023-02-13 20:49:50" Creator="Administrator" Comments="" ID="175a5fed3b47540be16ac9056cac11c7">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_TagDB_library</Package_File_Name>
     <Library_Version>3.0.0.1</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>src</Library_Source_Folder>
-    <Library_Output_Folder>..\vip</Library_Output_Folder>
+    <Library_Output_Folder>vip</Library_Output_Folder>
     <Company_Name>NEVSTOP</Company_Name>
     <Library_Summary/>
     <Library_License/>
@@ -154,11 +154,6 @@ Change To TagDB Library. Using Xnode.</Release_Notes>
       </Password_Overrides>
       <Namespace_Overrides>
         <Path>.</Path>
-        <Namespace_Type>Prefix</Namespace_Type>
-        <Namespace/>
-      </Namespace_Overrides>
-      <Namespace_Overrides>
-        <Path>TagDB/TagDB(DEV).lvlib</Path>
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
       </Namespace_Overrides>
