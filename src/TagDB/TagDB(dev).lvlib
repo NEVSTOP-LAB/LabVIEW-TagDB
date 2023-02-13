@@ -56,20 +56,9 @@ TagContainer-Write.vim: 写入 Tag</Property>
 	<Property Name="SaveStatePeriod" Type="UInt">0</Property>
 	<Property Name="Serialized ACL" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
-	<Item Name="Global" Type="Folder">
-		<Item Name="buildURL.vi" Type="VI" URL="../_global/URL/buildURL.vi"/>
-		<Item Name="isPrivateURL.vi" Type="VI" URL="../_global/URL/isPrivateURL.vi"/>
-		<Item Name="StripURL.vi" Type="VI" URL="../_global/URL/StripURL.vi"/>
-		<Item Name="TRIM-BOTH-SPACE.vi" Type="VI" URL="../_global/URL/TRIM-BOTH-SPACE.vi"/>
-		<Item Name="URLRoot.vi" Type="VI" URL="../_global/URL/URLRoot.vi"/>
-		<Item Name="AppendPrivateToken.vi" Type="VI" URL="../_global/URL/AppendPrivateToken.vi"/>
-		<Item Name="_dataType.vi" Type="VI" URL="../_global/RefnumType/_dataType.vi"/>
-		<Item Name="_refNumType.vi" Type="VI" URL="../_global/RefnumType/_refNumType.vi"/>
-		<Item Name="_VIServerRefType.vi" Type="VI" URL="../_global/RefnumType/_VIServerRefType.vi"/>
-	</Item>
 	<Item Name="Support" Type="Folder">
 		<Item Name="Error" Type="Folder">
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 			<Item Name="_[error50000]Invalid DB REF.vi" Type="VI" URL="../_Support/Error/_[error50000]Invalid DB REF.vi"/>
 			<Item Name="_[error50001]Can&apos;t Found Value.vi" Type="VI" URL="../_Support/Error/_[error50001]Can&apos;t Found Value.vi"/>
 			<Item Name="_[error50002]Invalid DataType.vi" Type="VI" URL="../_Support/Error/_[error50002]Invalid DataType.vi"/>
@@ -87,7 +76,6 @@ TagContainer-Write.vim: 写入 Tag</Property>
 		<Item Name="DataAccess" Type="Folder">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			<Item Name="_IgnoreInternalData.vi" Type="VI" URL="../_Support/DataAccess/_IgnoreInternalData.vi"/>
-			<Item Name="_Ref To DVR.vi" Type="VI" URL="../_Support/Access/_Ref To DVR.vi"/>
 			<Item Name="_NameCacher.vi" Type="VI" URL="../_Support/DataAccess/_NameCacher.vi"/>
 			<Item Name="_datatypeChecker.vi" Type="VI" URL="../_Support/DataAccess/_datatypeChecker.vi"/>
 			<Item Name="Obtain tagDB DVR.vi" Type="VI" URL="../_Support/DataAccess/Obtain tagDB DVR.vi"/>
@@ -101,6 +89,19 @@ TagContainer-Write.vim: 写入 Tag</Property>
 		<Item Name="Disk" Type="Folder">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			<Item Name="_GetConfigPath.vi" Type="VI" URL="../_Support/Disk/_GetConfigPath.vi"/>
+		</Item>
+		<Item Name="DataType" Type="Folder">
+			<Item Name="_dataType.vi" Type="VI" URL="../_Support/DataType/_dataType.vi"/>
+			<Item Name="_refNumType.vi" Type="VI" URL="../_Support/DataType/_refNumType.vi"/>
+			<Item Name="_VIServerRefType.vi" Type="VI" URL="../_Support/DataType/_VIServerRefType.vi"/>
+		</Item>
+		<Item Name="URL" Type="Folder">
+			<Item Name="buildURL.vi" Type="VI" URL="../_Support/URL/buildURL.vi"/>
+			<Item Name="isPrivateURL.vi" Type="VI" URL="../_Support/URL/isPrivateURL.vi"/>
+			<Item Name="StripURL.vi" Type="VI" URL="../_Support/URL/StripURL.vi"/>
+			<Item Name="TRIM-BOTH-SPACE.vi" Type="VI" URL="../_Support/URL/TRIM-BOTH-SPACE.vi"/>
+			<Item Name="URLRoot.vi" Type="VI" URL="../_Support/URL/URLRoot.vi"/>
+			<Item Name="AppendPrivateToken.vi" Type="VI" URL="../_Support/URL/AppendPrivateToken.vi"/>
 		</Item>
 	</Item>
 	<Item Name="API" Type="Folder">
@@ -129,8 +130,5 @@ TagContainer-Write.vim: 写入 Tag</Property>
 	<Item Name="Typedef" Type="Folder">
 		<Item Name="TagDB.ctl" Type="VI" URL="../Typedef/TagDB.ctl"/>
 		<Item Name="tagdb-data.ctl" Type="VI" URL="../Typedef/tagdb-data.ctl"/>
-	</Item>
-	<Item Name="_TEST" Type="Folder">
-		<Item Name="TagDB-TestMain.vi" Type="VI" URL="../__TEST/TagDB-TestMain.vi"/>
 	</Item>
 </Library>
