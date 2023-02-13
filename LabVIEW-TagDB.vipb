@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-10-20 15:34:05" Modified_Date="2023-02-13 20:49:50" Creator="Administrator" Comments="" ID="175a5fed3b47540be16ac9056cac11c7">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-10-20 15:34:05" Modified_Date="2023-02-13 22:27:54" Creator="Administrator" Comments="" ID="df4b27aab7739ad4733886b7f9b2fbf4">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_TagDB_library</Package_File_Name>
-    <Library_Version>3.0.0.1</Library_Version>
+    <Library_Version>3.0.0.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>src</Library_Source_Folder>
     <Library_Output_Folder>vip</Library_Output_Folder>
@@ -66,7 +66,7 @@ Change To TagDB Library. Using Xnode.</Release_Notes>
       <Toolkit_VIs>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path>&lt;user.lib&gt;\_NEVSTOP\TagDB\Core</Path>
+        <Path>&lt;user.lib&gt;\_NEVSTOP</Path>
       </Toolkit_VIs>
       <Examples>
         <LLB>false</LLB>
@@ -159,6 +159,9 @@ Change To TagDB Library. Using Xnode.</Release_Notes>
       </Namespace_Overrides>
       <Exclusions>
         <Path>_benchmark</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>VIAnalyzer.cfg</Path>
       </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath/>
