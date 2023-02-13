@@ -112,7 +112,7 @@ TagContainer-Write.vim: 写入 Tag</Property>
 		<Item Name="TagDB_Find Names.vi" Type="VI" URL="../API/TagDB_Find Names.vi"/>
 		<Item Name="TagDB-Change Detector.vi" Type="VI" URL="../API/TagDB-Change Detector.vi"/>
 		<Item Name="TagDB-Timestamp.vi" Type="VI" URL="../API/TagDB-Timestamp.vi"/>
-		<Item Name="TagDB-IsValid.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/TagContainer/API/TagDB-IsValid.vi"/>
+		<Item Name="TagDB-IsValid.vi" Type="VI" URL="../API/TagDB-IsValid.vi"/>
 		<Item Name="TagDB-List.vi" Type="VI" URL="../API/TagDB-List.vi"/>
 		<Item Name="TagDB-Set Lock.vi" Type="VI" URL="../API/TagDB-Set Lock.vi"/>
 		<Item Name="TagDB-Write.vim" Type="VI" URL="../API/TagDB-Write.vim"/>

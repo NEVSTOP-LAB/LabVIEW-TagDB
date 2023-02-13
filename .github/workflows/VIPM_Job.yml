@@ -37,7 +37,7 @@ jobs:
   # This workflow contains a single job called "build"
   Check_Broken_VIs:
 
-    needs: intall_deps
+    # needs: intall_deps
     # The type of runner that the job will run on
     runs-on: [self-hosted, huashan]
 
