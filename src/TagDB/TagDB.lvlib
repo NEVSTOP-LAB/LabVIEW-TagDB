@@ -93,21 +93,25 @@
 	</Item>
 	<Item Name="API" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="Disk" Type="Folder">
+			<Item Name="TagDB-Load.vi" Type="VI" URL="../API/TagDB-Load.vi"/>
+			<Item Name="TagDB-Save.vi" Type="VI" URL="../API/TagDB-Save.vi"/>
+		</Item>
+		<Item Name="Management" Type="Folder">
+			<Item Name="TagDB-Set Lock.vi" Type="VI" URL="../API/TagDB-Set Lock.vi"/>
+			<Item Name="TagDB-IsValid.vi" Type="VI" URL="../API/TagDB-IsValid.vi"/>
+			<Item Name="TagDB-List.vi" Type="VI" URL="../API/TagDB-List.vi"/>
+			<Item Name="TagDB-Timestamp.vi" Type="VI" URL="../API/TagDB-Timestamp.vi"/>
+			<Item Name="TagDB-Status.vi" Type="VI" URL="../API/TagDB-Status.vi"/>
+			<Item Name="TagDB_Find Names.vi" Type="VI" URL="../API/TagDB_Find Names.vi"/>
+			<Item Name="TagDB-Change Detector.vi" Type="VI" URL="../API/TagDB-Change Detector.vi"/>
+			<Item Name="TagDB-UpdateUI.vi" Type="VI" URL="../API/TagDB-UpdateUI.vi"/>
+		</Item>
 		<Item Name="TagDB-Obtain.vi" Type="VI" URL="../API/TagDB-Obtain.vi"/>
-		<Item Name="TagDB-Load.vi" Type="VI" URL="../API/TagDB-Load.vi"/>
-		<Item Name="TagDB-Save.vi" Type="VI" URL="../API/TagDB-Save.vi"/>
-		<Item Name="TagDB_Find Names.vi" Type="VI" URL="../API/TagDB_Find Names.vi"/>
-		<Item Name="TagDB-Change Detector.vi" Type="VI" URL="../API/TagDB-Change Detector.vi"/>
-		<Item Name="TagDB-Timestamp.vi" Type="VI" URL="../API/TagDB-Timestamp.vi"/>
-		<Item Name="TagDB-IsValid.vi" Type="VI" URL="../API/TagDB-IsValid.vi"/>
-		<Item Name="TagDB-List.vi" Type="VI" URL="../API/TagDB-List.vi"/>
-		<Item Name="TagDB-Set Lock.vi" Type="VI" URL="../API/TagDB-Set Lock.vi"/>
 		<Item Name="TagDB-Write.vim" Type="VI" URL="../API/TagDB-Write.vim"/>
 		<Item Name="TagDB-Read.vim" Type="VI" URL="../API/TagDB-Read.vim"/>
 		<Item Name="TagDB-Read By RegExp.vim" Type="VI" URL="../API/TagDB-Read By RegExp.vim"/>
 		<Item Name="TagDB-Delete.vi" Type="VI" URL="../API/TagDB-Delete.vi"/>
-		<Item Name="TagDB-Status.vi" Type="VI" URL="../API/TagDB-Status.vi"/>
-		<Item Name="TagDB-UpdateUI.vi" Type="VI" URL="../API/TagDB-UpdateUI.vi"/>
 		<Item Name="TagDB-Release.vi" Type="VI" URL="../API/TagDB-Release.vi"/>
 	</Item>
 	<Item Name="Typedef" Type="Folder">
