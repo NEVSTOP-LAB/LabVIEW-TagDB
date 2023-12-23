@@ -43,8 +43,8 @@
 	<Property Name="Serialized ACL" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="Support" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Error" Type="Folder">
-			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 			<Item Name="_[error50000]Invalid DB REF.vi" Type="VI" URL="../_Support/Error/_[error50000]Invalid DB REF.vi"/>
 			<Item Name="_[error50001]Can&apos;t Found Value.vi" Type="VI" URL="../_Support/Error/_[error50001]Can&apos;t Found Value.vi"/>
 			<Item Name="_[error50002]Invalid DataType.vi" Type="VI" URL="../_Support/Error/_[error50002]Invalid DataType.vi"/>
@@ -54,13 +54,11 @@
 			<Item Name="_Clear Errors.vi" Type="VI" URL="../_Support/Error/_Clear Errors.vi"/>
 		</Item>
 		<Item Name="Multi-Instance" Type="Folder">
-			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 			<Item Name="_DEF-DBOper.ctl" Type="VI" URL="../_Support/Multi-Instance/_DEF-DBOper.ctl"/>
 			<Item Name="_db.vi" Type="VI" URL="../_Support/Multi-Instance/_db.vi"/>
 			<Item Name="_GUID.vi" Type="VI" URL="../_Support/Multi-Instance/_GUID.vi"/>
 		</Item>
 		<Item Name="DataAccess" Type="Folder">
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			<Item Name="_IgnoreInternalData.vi" Type="VI" URL="../_Support/DataAccess/_IgnoreInternalData.vi"/>
 			<Item Name="_NameCacher.vi" Type="VI" URL="../_Support/DataAccess/_NameCacher.vi"/>
 			<Item Name="_datatypeChecker.vi" Type="VI" URL="../_Support/DataAccess/_datatypeChecker.vi"/>
@@ -69,14 +67,13 @@
 			<Item Name="data-Write.vi" Type="VI" URL="../_Support/DataAccess/data-Write.vi"/>
 		</Item>
 		<Item Name="Change Detector" Type="Folder">
-			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 			<Item Name="TagDB dbChanged.vi" Type="VI" URL="../_Support/Change Detector/TagDB dbChanged.vi"/>
 			<Item Name="TagDB TagsChanged.vi" Type="VI" URL="../_Support/Change Detector/TagDB TagsChanged.vi"/>
 			<Item Name="TagDB ChangeFlag.vi" Type="VI" URL="../_Support/Change Detector/TagDB ChangeFlag.vi"/>
 		</Item>
 		<Item Name="Disk" Type="Folder">
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			<Item Name="_GetConfigPath.vi" Type="VI" URL="../_Support/Disk/_GetConfigPath.vi"/>
+			<Item Name="file version adapter.vi" Type="VI" URL="../_Support/Disk/file version adapter.vi"/>
 		</Item>
 		<Item Name="DataType" Type="Folder">
 			<Item Name="_dataType.vi" Type="VI" URL="../_Support/DataType/_dataType.vi"/>
