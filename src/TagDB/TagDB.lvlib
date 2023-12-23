@@ -72,6 +72,7 @@
 			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 			<Item Name="TagDB dbChanged.vi" Type="VI" URL="../_Support/Change Detector/TagDB dbChanged.vi"/>
 			<Item Name="TagDB TagsChanged.vi" Type="VI" URL="../_Support/Change Detector/TagDB TagsChanged.vi"/>
+			<Item Name="TagDB ChangeFlag.vi" Type="VI" URL="../_Support/Change Detector/TagDB ChangeFlag.vi"/>
 		</Item>
 		<Item Name="Disk" Type="Folder">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
