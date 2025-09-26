@@ -74,6 +74,7 @@
 		<Item Name="Disk" Type="Folder">
 			<Item Name="_GetConfigPath.vi" Type="VI" URL="../_Support/Disk/_GetConfigPath.vi"/>
 			<Item Name="file version adapter.vi" Type="VI" URL="../_Support/Disk/file version adapter.vi"/>
+			<Item Name="tagdbfile-v3.1.ctl" Type="VI" URL="../_Support/Disk/tagdbfile-v3.1.ctl"/>
 		</Item>
 		<Item Name="DataType" Type="Folder">
 			<Item Name="_dataType.vi" Type="VI" URL="../_Support/DataType/_dataType.vi"/>

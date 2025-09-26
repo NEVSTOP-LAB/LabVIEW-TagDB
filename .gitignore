@@ -55,3 +55,4 @@ Build
 /Requirement/*.lock
 /src/_benchmark/*.tdms_index
 /*.vcfg
+*.tagdb
