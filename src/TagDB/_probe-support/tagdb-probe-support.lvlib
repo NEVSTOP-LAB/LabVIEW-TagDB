@@ -5,7 +5,5 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="_CommonPage.vi" Type="VI" URL="../_CommonPage.vi"/>
-	<Item Name="_Monitor.vi" Type="VI" URL="../_Monitor.vi"/>
-	<Item Name="_Start Monitor VI.vi" Type="VI" URL="../_Start Monitor VI.vi"/>
 	<Item Name="_TablePage.vi" Type="VI" URL="../_TablePage.vi"/>
 </Library>
