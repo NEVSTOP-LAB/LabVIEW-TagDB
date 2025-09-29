@@ -1,5 +1,7 @@
 # NEVSTOP TagDB Library
 
+[English](./README(en).md) | [中文](./README.md)
+
 NEVSTOP TagDB 是一个专为 LabVIEW 环境设计的高级数据管理库，提供配置及 Tag 数据的高效读写、存储和共享功能。它通过优化的数据结构和缓存机制，为 LabVIEW 应用程序提供了可靠的数据持久化和实时数据访问解决方案。
 
 ## 目录结构
