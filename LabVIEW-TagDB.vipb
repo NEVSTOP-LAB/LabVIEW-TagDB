@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-10-20 15:34:05" Modified_Date="2025-09-25 10:06:47" Creator="Administrator" Comments="" ID="031dc6f803a431b49c6ed6fca76f3661">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-10-20 15:34:05" Modified_Date="2025-09-29 09:37:41" Creator="Administrator" Comments="" ID="3c2b34751f68d77650430c3ebf5c88dc">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_TagDB_library</Package_File_Name>
     <Library_Version>3.1.0.2</Library_Version>
@@ -58,7 +58,9 @@ Used for providing configuration and Tag data functionality.
       <Copyright/>
       <Packager>NEVSTOP</Packager>
       <URL>https://github.com/NEVSTOP-LAB</URL>
-      <Release_Notes>Update to lv2017 and use vim instead of xnode.</Release_Notes>
+      <Release_Notes>[add] #14 add delete-multiple interface
+Update to lv2017 and use vim instead of xnode.
+</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -214,7 +216,6 @@ Used for providing configuration and Tag data functionality.
       <close_labview_before_install>false</close_labview_before_install>
       <restart_labview_after_install>false</restart_labview_after_install>
       <skip_mass_compile_after_install>false</skip_mass_compile_after_install>
-      <install_into_global_environment>false</install_into_global_environment>
     </LabVIEW>
     <VI_Docs>
       <Edit_VI_Description>true</Edit_VI_Description>

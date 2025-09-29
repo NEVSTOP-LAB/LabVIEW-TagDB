@@ -105,6 +105,8 @@
 			<Item Name="TagDB_Find Names.vi" Type="VI" URL="../API/TagDB_Find Names.vi"/>
 			<Item Name="TagDB-Change Detector.vi" Type="VI" URL="../API/TagDB-Change Detector.vi"/>
 			<Item Name="TagDB-UpdateUI.vi" Type="VI" URL="../API/TagDB-UpdateUI.vi"/>
+			<Item Name="TagDB-Delete Single.vi" Type="VI" URL="../API/TagDB-Delete Single.vi"/>
+			<Item Name="TagDB-Delete Multiple.vi" Type="VI" URL="../API/TagDB-Delete Multiple.vi"/>
 		</Item>
 		<Item Name="TagDB-Obtain.vi" Type="VI" URL="../API/TagDB-Obtain.vi"/>
 		<Item Name="TagDB-Write.vim" Type="VI" URL="../API/TagDB-Write.vim"/>
