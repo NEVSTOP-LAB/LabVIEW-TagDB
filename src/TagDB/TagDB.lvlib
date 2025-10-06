@@ -76,11 +76,6 @@
 			<Item Name="file version adapter.vi" Type="VI" URL="../_Support/Disk/file version adapter.vi"/>
 			<Item Name="tagdbfile-v3.1.ctl" Type="VI" URL="../_Support/Disk/tagdbfile-v3.1.ctl"/>
 		</Item>
-		<Item Name="DataType" Type="Folder">
-			<Item Name="_dataType.vi" Type="VI" URL="../_Support/DataType/_dataType.vi"/>
-			<Item Name="_refNumType.vi" Type="VI" URL="../_Support/DataType/_refNumType.vi"/>
-			<Item Name="_VIServerRefType.vi" Type="VI" URL="../_Support/DataType/_VIServerRefType.vi"/>
-		</Item>
 		<Item Name="URL" Type="Folder">
 			<Item Name="URLRoot.vi" Type="VI" URL="../_Support/URL/URLRoot.vi"/>
 			<Item Name="buildURL.vi" Type="VI" URL="../_Support/URL/buildURL.vi"/>
