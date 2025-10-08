@@ -124,7 +124,7 @@ NEVSTOP TagDB 是一个专为 LabVIEW 环境设计的高级数据管理库，提
 
 ## 许可证
 
-本项目使用 MIT 许可证，详见 [LICENSE](LICENSE) 文件。
+本项目使用 Apache-2.0 license，详见 [LICENSE](LICENSE) 文件。
 
 ## 贡献指南
 
