@@ -107,12 +107,11 @@ NEVSTOP TagDB is an advanced data management library designed specifically for t
 
 The library includes multiple example programs demonstrating usage in different scenarios:
 
-- **EXAMPLE_TAGDBDEMO.vi**: Basic function demonstration
-- **EXAMPLE_MULTITHREAD.vi**: Usage example in multi-threaded environments
-- **EXAMPLE_REF.vi**: Example of handling Reference type data
-- **EXAMPLE_REGEXP.vi**: Regular expression query example
-- **EXAMPLE_PARSEFILE.vi**: File parsing and data import example
-- **TagDB-TestMain.vi**: Comprehensive functional test program
+- **TagDB Example.vi**: Basic function demonstration
+- **TagDB Application Example**: Practical application demonstration with a complete model configuration system
+- **TagDB For Control Reference.vi**: Example of handling Reference type data for UI controls
+- **TagDB Multi-Thread Example**: Usage example in multi-threaded environments
+- **TagDB Using regexp Example.vi**: Regular expression query example
 
 ## Installation Instructions
 
