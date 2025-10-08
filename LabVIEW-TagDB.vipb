@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-10-20 15:34:05" Modified_Date="2023-12-29 11:43:01" Creator="Administrator" Comments="" ID="1f80511f993aa0610e11fbfce054412c">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-10-20 15:34:05" Modified_Date="2025-10-08 20:52:47" Creator="Administrator" Comments="" ID="9843ccf7ef0d7ae39714a1486fad6e62">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_TagDB_library</Package_File_Name>
-    <Library_Version>3.0.0.2</Library_Version>
+    <Library_Version>3.1.0.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>src</Library_Source_Folder>
     <Library_Output_Folder>vip</Library_Output_Folder>
@@ -28,37 +28,41 @@
     <VI_Package_Configuration_File>LabVIEW-TagDB.vipc</VI_Package_Configuration_File>
     <Description>
       <One_Line_Description_Summary>TagDB Library for LabVIEW Programming</One_Line_Description_Summary>
-      <Description># LabVIEW TagDB Library
+      <Description>NEVSTOP TagDB is an advanced data management library designed specifically for the LabVIEW environment, providing efficient reading, writing, storage, and sharing of configuration and Tag data. Through optimized data structures and caching mechanisms, it offers reliable data persistence and real-time data access solutions for LabVIEW applications.
 
-Used for providing configuration and Tag data functionality.
+## Best Practices
 
-## FEATURE
+### Data Management
+- **Data sharing in multi-threaded environments**: Use TagDB as a data sharing center between multi-threaded applications, avoiding the use of global variables
+- **Configuration information storage**: Store system configuration information in TagDB for easy import/export and version control
+- **Temporary data caching**: Utilize TagDB's caching functionality to achieve asynchronous updates and fast access to data points
+- **Control reference management**: Store LabVIEW front panel control References for convenient dynamic UI manipulation
 
- - Cache functionality. If TagDB is not changed, Read action uses a local cache istead of accessing the TagDB.
- - TagDB could be obtain by name.
- - LabVIEW Reference support is enhanced.
- - Configuration file(*.vcfg) is supported.
- - A Customer Probe is provide for debuggin.
+### Performance Optimization
+- For frequently accessed data, consider using TagDB's caching mechanism
+- When performing bulk data operations, properly use batch operation functions to improve efficiency
+- Appropriately use the locking feature to prevent data modification during critical operations
 
-## VI PALETTE
+### Debugging Techniques
+- Use the three built-in Probe tools to monitor the status and data changes of TagDB during runtime
+- Regularly check the database status using TagDB-Status.vi to detect issues in a timely manner
+- Use TagDB-Change Detector.vi to monitor changes in specific Tags, facilitating debugging of complex interaction logic
 
- - TagDB Obtain
- - TagDB Load Config File
- - TagDB Save Config File
- - TagDB Read 
- - TagDB Write
- - TagDB Delete
- - TagDB Status
- - TagDB Free
+## Example Programs
 
-## BEST PRACTICE
+The library includes multiple example programs demonstrating usage in different scenarios:
 
- - Tag/Cfg information shared for multiple threads.
- - LabVIEW Refnum management. </Description>
+- **TagDB Example.vi**: Basic function demonstration
+- **TagDB Application Example**: Practical application demonstration with a complete model configuration system
+- **TagDB For Control Reference.vi**: Example of handling Reference type data for UI controls
+- **TagDB Multi-Thread Example**: Usage example in multi-threaded environments
+- **TagDB Using regexp Example.vi**: Regular expression query example</Description>
       <Copyright/>
       <Packager>NEVSTOP</Packager>
       <URL>https://github.com/NEVSTOP-LAB</URL>
-      <Release_Notes>Update to lv2017 and use vim instead of xnode.</Release_Notes>
+      <Release_Notes>[add] #14 add delete-multiple interface
+Update to lv2017 and use vim instead of xnode.
+</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>

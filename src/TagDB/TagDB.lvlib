@@ -74,11 +74,7 @@
 		<Item Name="Disk" Type="Folder">
 			<Item Name="_GetConfigPath.vi" Type="VI" URL="../_Support/Disk/_GetConfigPath.vi"/>
 			<Item Name="file version adapter.vi" Type="VI" URL="../_Support/Disk/file version adapter.vi"/>
-		</Item>
-		<Item Name="DataType" Type="Folder">
-			<Item Name="_dataType.vi" Type="VI" URL="../_Support/DataType/_dataType.vi"/>
-			<Item Name="_refNumType.vi" Type="VI" URL="../_Support/DataType/_refNumType.vi"/>
-			<Item Name="_VIServerRefType.vi" Type="VI" URL="../_Support/DataType/_VIServerRefType.vi"/>
+			<Item Name="tagdbfile-v3.1.ctl" Type="VI" URL="../_Support/Disk/tagdbfile-v3.1.ctl"/>
 		</Item>
 		<Item Name="URL" Type="Folder">
 			<Item Name="URLRoot.vi" Type="VI" URL="../_Support/URL/URLRoot.vi"/>
@@ -104,6 +100,8 @@
 			<Item Name="TagDB_Find Names.vi" Type="VI" URL="../API/TagDB_Find Names.vi"/>
 			<Item Name="TagDB-Change Detector.vi" Type="VI" URL="../API/TagDB-Change Detector.vi"/>
 			<Item Name="TagDB-UpdateUI.vi" Type="VI" URL="../API/TagDB-UpdateUI.vi"/>
+			<Item Name="TagDB-Delete Single.vi" Type="VI" URL="../API/TagDB-Delete Single.vi"/>
+			<Item Name="TagDB-Delete Multiple.vi" Type="VI" URL="../API/TagDB-Delete Multiple.vi"/>
 		</Item>
 		<Item Name="TagDB-Obtain.vi" Type="VI" URL="../API/TagDB-Obtain.vi"/>
 		<Item Name="TagDB-Write.vim" Type="VI" URL="../API/TagDB-Write.vim"/>
