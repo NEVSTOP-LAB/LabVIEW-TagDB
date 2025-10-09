@@ -112,6 +112,7 @@ NEVSTOP TagDB 是一个专为 LabVIEW 环境设计的高级数据管理库，提
 - **TagDB For Control Reference.vi**：用于 UI 控件的 Reference 类型数据处理示例
 - **TagDB Multi-Thread Example**：多线程环境下的使用示例
 - **TagDB Using regexp Example.vi**：正则表达式查询示例
+- **TagDB Refresh UI Value.vi**：UI 值刷新示例，展示如何实时更新 UI 控件值
 
 ## 安装说明
 

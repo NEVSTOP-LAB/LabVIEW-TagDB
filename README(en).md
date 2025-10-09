@@ -112,6 +112,7 @@ The library includes multiple example programs demonstrating usage in different 
 - **TagDB For Control Reference.vi**: Example of handling Reference type data for UI controls
 - **TagDB Multi-Thread Example**: Usage example in multi-threaded environments
 - **TagDB Using regexp Example.vi**: Regular expression query example
+- **TagDB Refresh UI Value.vi**: UI value refresh example, showing how to update UI control values in real-time
 
 ## Installation Instructions
 
