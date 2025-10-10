@@ -108,6 +108,7 @@
 		<Item Name="TagDB-Read.vim" Type="VI" URL="../API/TagDB-Read.vim"/>
 		<Item Name="TagDB-Read By RegExp.vim" Type="VI" URL="../API/TagDB-Read By RegExp.vim"/>
 		<Item Name="TagDB-Delete.vi" Type="VI" URL="../API/TagDB-Delete.vi"/>
+		<Item Name="TagDB-Truncate.vi" Type="VI" URL="../API/TagDB-Truncate.vi"/>
 		<Item Name="TagDB-Release.vi" Type="VI" URL="../API/TagDB-Release.vi"/>
 	</Item>
 	<Item Name="Typedef" Type="Folder">

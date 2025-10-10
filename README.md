@@ -84,6 +84,7 @@ NEVSTOP TagDB 是一个专为 LabVIEW 环境设计的高级数据管理库，提
 | TagDB-Timestamp.vi | 获取 TagDB 操作的时间戳 |
 | TagDB-UpdateUI.vi | 更新与 Tag 关联的 UI 控件 |
 | TagDB-Change Detector.vi | 检测 Tag 值的变化 |
+| TagDB-Truncate.vi | 清空 TagDB 数据库中的所有 Tag 数据 |
 
 ## 最佳实践
 

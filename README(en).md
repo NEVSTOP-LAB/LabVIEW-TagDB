@@ -84,6 +84,7 @@ NEVSTOP TagDB is an advanced data management library designed specifically for t
 | TagDB-Timestamp.vi | Gets timestamp of TagDB operations |
 | TagDB-UpdateUI.vi | Updates UI controls associated with Tags |
 | TagDB-Change Detector.vi | Detects changes in Tag values |
+| TagDB-Truncate.vi | Clears all Tag data in the TagDB database |
 
 ## Best Practices
 
