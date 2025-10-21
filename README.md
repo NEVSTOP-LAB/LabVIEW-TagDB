@@ -62,9 +62,14 @@ NEVSTOP TagDB 是一个专为 LabVIEW 环境设计的高级数据管理库，提
 | 函数名称 | 功能描述 |
 |---------|---------|
 | TagDB-Write.vim | 写入/更新单个 Tag 的值 |
+| TagDB-Write Data Recursive.vim | 递归写入/更新数据结构到 Tags |
+| TagDB-Write Data Elements.vim | 写入数据，当数据是Cluster时，根据元素名称依次写入 |
 | TagDB-Read.vim | 读取单个 Tag 的值 |
+| TagDB-Read Data By Element Names.vim | 读取数据，当数据是Cluster时，根据元素名称依次读取 |
 | TagDB-Read By RegExp.vim | 使用正则表达式批量读取 Tag |
 | TagDB-Delete.vi | 删除 Tag |
+| TagDB-Delete Single.vi | 通过名称删除单个 Tag |
+| TagDB-Delete Multiple.vi | 批量删除多个 Tag |
 
 ### 配置管理函数
 
@@ -112,6 +117,8 @@ NEVSTOP TagDB 是一个专为 LabVIEW 环境设计的高级数据管理库，提
 - **TagDB Application Example**：带有完整模型配置系统的实际应用演示
 - **TagDB For Control Reference.vi**：用于 UI 控件的 Reference 类型数据处理示例
 - **TagDB Multi-Thread Example**：多线程环境下的使用示例
+- **TagDB Read Data Example.vi**：综合示例，展示各种读取操作，包括单次读取、元素名称读取（用于Cluster数据）和正则表达式读取
+- **TagDB Write Data Example.vi**：综合示例，演示各种写入操作，包括单次写入、元素名称写入（用于Cluster数据）和递归数据结构写入
 - **TagDB Using regexp Example.vi**：正则表达式查询示例
 - **TagDB Refresh UI Value.vi**：UI 值刷新示例，展示如何实时更新 UI 控件值
 
