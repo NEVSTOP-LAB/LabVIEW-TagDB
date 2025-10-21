@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-10-20 15:34:05" Modified_Date="2025-10-08 20:52:47" Creator="Administrator" Comments="" ID="9843ccf7ef0d7ae39714a1486fad6e62">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-10-20 15:34:05" Modified_Date="2025-10-21 13:22:20" Creator="Administrator" Comments="" ID="c4441631562c7aea90aaae78fd49b54d">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_TagDB_library</Package_File_Name>
-    <Library_Version>3.1.0.2</Library_Version>
+    <Library_Version>3.2.0.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>src</Library_Source_Folder>
     <Library_Output_Folder>vip</Library_Output_Folder>
