@@ -105,7 +105,10 @@
 		</Item>
 		<Item Name="TagDB-Obtain.vi" Type="VI" URL="../API/TagDB-Obtain.vi"/>
 		<Item Name="TagDB-Write.vim" Type="VI" URL="../API/TagDB-Write.vim"/>
+		<Item Name="TagDB-Write Data Elements.vim" Type="VI" URL="../API/TagDB-Write Data Elements.vim"/>
+		<Item Name="TagDB-Write Data Recursive.vim" Type="VI" URL="../API/TagDB-Write Data Recursive.vim"/>
 		<Item Name="TagDB-Read.vim" Type="VI" URL="../API/TagDB-Read.vim"/>
+		<Item Name="TagDB-Read Data By Element Names.vim" Type="VI" URL="../API/TagDB-Read Data By Element Names.vim"/>
 		<Item Name="TagDB-Read By RegExp.vim" Type="VI" URL="../API/TagDB-Read By RegExp.vim"/>
 		<Item Name="TagDB-Delete.vi" Type="VI" URL="../API/TagDB-Delete.vi"/>
 		<Item Name="TagDB-Truncate.vi" Type="VI" URL="../API/TagDB-Truncate.vi"/>

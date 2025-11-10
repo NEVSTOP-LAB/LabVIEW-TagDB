@@ -62,9 +62,14 @@ NEVSTOP TagDB is an advanced data management library designed specifically for t
 | Function Name | Description |
 |--------------|-------------|
 | TagDB-Write.vim | Writes/updates the value of a single Tag |
+| TagDB-Write Data Recursive.vim | Recursively writes/updates data structures to Tags |
+| TagDB-Write Data Elements.vim | Writes data, when data is Cluster, writes sequentially according to element names |
 | TagDB-Read.vim | Reads the value of a single Tag |
+| TagDB-Read Data By Element Names.vim | Reads data, when data is Cluster, reads sequentially according to element names |
 | TagDB-Read By RegExp.vim | Batch reads Tags using regular expressions |
 | TagDB-Delete.vi | Deletes a Tag |
+| TagDB-Delete Single.vi | Deletes a single Tag by name |
+| TagDB-Delete Multiple.vi | Batch deletes multiple Tags |
 
 ### Configuration Management Functions
 
@@ -112,6 +117,8 @@ The library includes multiple example programs demonstrating usage in different 
 - **TagDB Application Example**: Practical application demonstration with a complete model configuration system
 - **TagDB For Control Reference.vi**: Example of handling Reference type data for UI controls
 - **TagDB Multi-Thread Example**: Usage example in multi-threaded environments
+- **TagDB Read Data Example.vi**: Comprehensive example showing various reading operations including single read, element name read (for Cluster data), and regular expression read
+- **TagDB Write Data Example.vi**: Comprehensive example demonstrating various writing operations including single write, element name write (for Cluster data), and recursive data structure write
 - **TagDB Using regexp Example.vi**: Regular expression query example
 - **TagDB Refresh UI Value.vi**: UI value refresh example, showing how to update UI control values in real-time
 
