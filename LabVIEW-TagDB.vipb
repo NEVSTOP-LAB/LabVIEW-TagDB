@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-10-20 15:34:05" Modified_Date="2025-10-21 13:22:20" Creator="Administrator" Comments="" ID="c4441631562c7aea90aaae78fd49b54d">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2015-10-20 15:34:05" Modified_Date="2025-11-10 11:34:01" Creator="Administrator" Comments="" ID="982cc77ecf488983e7b63ffdbae27fec">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_TagDB_library</Package_File_Name>
     <Library_Version>3.2.0.2</Library_Version>
@@ -61,6 +61,8 @@ The library includes multiple example programs demonstrating usage in different 
       <Packager>NEVSTOP</Packager>
       <URL>https://github.com/NEVSTOP-LAB</URL>
       <Release_Notes>[add] #14 add delete-multiple interface
+[add] #18 add more read/write cluster API for improving user experience
+[update] improve tagdb probes
 Update to lv2017 and use vim instead of xnode.
 </Release_Notes>
     </Description>
@@ -162,6 +164,9 @@ Update to lv2017 and use vim instead of xnode.
       <Exclusions>
         <Path>VIAnalyzer.cfg</Path>
       </Exclusions>
+      <Place_Folder_Contents>
+        <Path>Example</Path>
+      </Place_Folder_Contents>
     </Source_Files>
     <License_Agreement_Filepath>LICENSE</License_Agreement_Filepath>
     <Licensing_and_Activation>
