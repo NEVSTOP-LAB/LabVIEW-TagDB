@@ -2,7 +2,7 @@
 
 [English](./README(en).md) | [中文](./README.md)
 
-NEVSTOP TagDB is an advanced data management library designed specifically for the LabVIEW environment, providing efficient reading, writing, storage, and sharing of configuration and Tag data. Through optimized data structures and caching mechanisms, it offers reliable data persistence and real-time data access solutions for LabVIEW applications.
+NEVSTOP TagDB is an advanced data management library for LabVIEW, providing efficient read/write, storage, and sharing of configuration and Tag data. With optimized data structures and a built-in caching layer, it delivers reliable data persistence and real-time access for LabVIEW applications.
 
 ## Directory Structure
 
@@ -25,7 +25,7 @@ NEVSTOP TagDB is an advanced data management library designed specifically for t
 
 ### 1. Flexible Data Storage
 - Supports persistent storage of configuration data and Tag data
-- Automatically supports conversion and storage of all LabVIEW data types through VIM (VI Macro)
+- Supports read/write and automatic type conversion for all LabVIEW data types via VIM (VI Macro)
 - Specially optimized for Reference type data to ensure efficient storage and retrieval
 
 ### 2. Multi-thread Safety
@@ -34,9 +34,9 @@ NEVSTOP TagDB is an advanced data management library designed specifically for t
 - Supports data access and synchronization across VIs and tasks
 
 ### 3. High Performance Design
-- Implements efficient caching mechanism for fast data access
+- Implements an efficient caching mechanism for fast data access
 - Optimized data structures to reduce memory usage and improve retrieval efficiency
-- Supports name-based DBRef acquisition method, similar to LabVIEW Named Queue, simplifying programming patterns
+- Supports name-based DBRef lookup (similar to LabVIEW Named Queue), simplifying cross-VI data access patterns
 
 ### 4. Configuration Management
 - Complete configuration file import/export functionality
@@ -63,9 +63,9 @@ NEVSTOP TagDB is an advanced data management library designed specifically for t
 |--------------|-------------|
 | TagDB-Write.vim | Writes/updates the value of a single Tag |
 | TagDB-Write Data Recursive.vim | Recursively writes/updates data structures to Tags |
-| TagDB-Write Data Elements.vim | Writes data, when data is Cluster, writes sequentially according to element names |
+| TagDB-Write Data Elements.vim | For Cluster data, writes each element to its corresponding Tag by element name |
 | TagDB-Read.vim | Reads the value of a single Tag |
-| TagDB-Read Data By Element Names.vim | Reads data, when data is Cluster, reads sequentially according to element names |
+| TagDB-Read Data By Element Names.vim | For Cluster data, reads each element from its corresponding Tag by element name |
 | TagDB-Read By RegExp.vim | Batch reads Tags using regular expressions |
 | TagDB-Delete.vi | Deletes a Tag |
 | TagDB-Delete Single.vi | Deletes a single Tag by name |
@@ -77,7 +77,7 @@ NEVSTOP TagDB is an advanced data management library designed specifically for t
 |--------------|-------------|
 | TagDB-Load.vi | Loads TagDB configuration from file |
 | TagDB-Save.vi | Saves TagDB configuration to file |
-| TagDB-Set Lock.vi | Locks/unlocks TagDB, disallows/allows adding new Tags |
+| TagDB-Set Lock.vi | Locks/unlocks TagDB to restrict or allow adding new Tags |
 
 ### Utility Functions
 
@@ -94,20 +94,20 @@ NEVSTOP TagDB is an advanced data management library designed specifically for t
 ## Best Practices
 
 ### Data Management
-- **Data sharing in multi-threaded environments**: Use TagDB as a data sharing center between multi-threaded applications, avoiding the use of global variables
-- **Configuration information storage**: Store system configuration information in TagDB for easy import/export and version control
-- **Temporary data caching**: Utilize TagDB's caching functionality to achieve asynchronous updates and fast access to data points
-- **Control reference management**: Store LabVIEW front panel control References for convenient dynamic UI manipulation
+- **Multi-threaded data sharing**: Use TagDB as a shared data hub across threads, replacing global variables
+- **Configuration storage**: Store system configuration in TagDB for easy import/export and version management
+- **Temporary data caching**: Leverage TagDB's caching to enable asynchronous updates and fast access to data points
+- **Control reference management**: Store front-panel control References for dynamic UI manipulation
 
 ### Performance Optimization
-- For frequently accessed data, consider using TagDB's caching mechanism
-- When performing bulk data operations, properly use batch operation functions to improve efficiency
-- Appropriately use the locking feature to prevent data modification during critical operations
+- For frequently accessed data, make use of TagDB's caching mechanism
+- For bulk data operations, prefer batch operation functions to improve efficiency
+- Use the locking feature during critical operations to prevent unintended data modification
 
 ### Debugging Techniques
-- Use the three built-in Probe tools to monitor the status and data changes of TagDB during runtime
-- Regularly check the database status using TagDB-Status.vi to detect issues in a timely manner
-- Use TagDB-Change Detector.vi to monitor changes in specific Tags, facilitating debugging of complex interaction logic
+- Use the three built-in Probe tools to monitor TagDB state and data changes at runtime
+- Periodically check database status with TagDB-Status.vi to catch issues early
+- Use TagDB-Change Detector.vi to watch specific Tags for value changes, aiding in debugging complex interaction logic
 
 ## Example Programs
 
@@ -117,14 +117,14 @@ The library includes multiple example programs demonstrating usage in different 
 - **TagDB Application Example**: Practical application demonstration with a complete model configuration system
 - **TagDB For Control Reference.vi**: Example of handling Reference type data for UI controls
 - **TagDB Multi-Thread Example**: Usage example in multi-threaded environments
-- **TagDB Read Data Example.vi**: Comprehensive example showing various reading operations including single read, element name read (for Cluster data), and regular expression read
-- **TagDB Write Data Example.vi**: Comprehensive example demonstrating various writing operations including single write, element name write (for Cluster data), and recursive data structure write
+- **TagDB Read Data Example.vi**: Comprehensive read example covering single read, element-name read (for Cluster data), and regular expression read
+- **TagDB Write Data Example.vi**: Comprehensive write example covering single write, element-name write (for Cluster data), and recursive data structure write
 - **TagDB Using regexp Example.vi**: Regular expression query example
 - **TagDB Refresh UI Value.vi**: UI value refresh example, showing how to update UI control values in real-time
 
 ## Installation Instructions
 
-Install the VIP package using VIPM (VI Package Manager)
+Install the VIP package using VIPM (VI Package Manager).
 
 ## System Requirements
 
