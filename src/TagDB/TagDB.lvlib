@@ -67,6 +67,8 @@
 			<Item Name="Obtain tagDB DVR.vi" Type="VI" URL="../_Support/DataAccess/Obtain tagDB DVR.vi"/>
 			<Item Name="TagDB Ref to DVR.vi" Type="VI" URL="../_Support/DataAccess/TagDB Ref to DVR.vi"/>
 			<Item Name="data-Write.vi" Type="VI" URL="../_Support/DataAccess/data-Write.vi"/>
+			<Item Name="_Get Control Values by Index.vi" Type="VI" URL="../_Support/DataAccess/_Get Control Values by Index.vi"/>
+			<Item Name="_Set Control Values by Index.vi" Type="VI" URL="../_Support/DataAccess/_Set Control Values by Index.vi"/>
 		</Item>
 		<Item Name="Change Detector" Type="Folder">
 			<Item Name="TagDB dbChanged.vi" Type="VI" URL="../_Support/Change Detector/TagDB dbChanged.vi"/>
