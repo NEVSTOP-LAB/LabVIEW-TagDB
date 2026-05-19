@@ -10,10 +10,10 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Probes" Type="Folder" URL="../src/Probes">
+		<Item Name="Probes" Type="Folder" URL="../../src/Probes">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="TagDB.lvlib" Type="Library" URL="../src/TagDB/TagDB.lvlib"/>
+		<Item Name="TagDB.lvlib" Type="Library" URL="../../src/TagDB/TagDB.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
